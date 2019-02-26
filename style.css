@@ -7,8 +7,8 @@ body {
 .zone {
     color:#FFF;
     font-size:2em;
-    border-radius:4px;
-    border:1px solid #bbb;
+    border-radius:0px;
+    border:1px solid black;
     transition: all 0.3s linear;
 }
 
@@ -36,7 +36,12 @@ body {
   font-size: 5em;
 }
 
-.aboutme {
+/*.aboutme {
+  color: white;
+}*/
+
+.aboutme > p {
+  font-size: 3rem;
   color: white;
 }
 
@@ -72,6 +77,13 @@ a {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  color: black;
+}
+
+.thumbnail > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .box > img {
@@ -80,8 +92,9 @@ a {
 
 .box {
   background-color: black;
-  padding: 130px;
-  margin: 20px;
+  padding: 10px;
+  margin: 40px 20px;
+
 }
 
 footer {
