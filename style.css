@@ -98,7 +98,8 @@ a {
 }
 
 footer {
-  text-align: center;
+  text-align: right;
+  font-size: 2px;
 }
 
 .cover {
