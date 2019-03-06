@@ -36,11 +36,14 @@ body {
   font-size: 5em;
 }
 
-/*.aboutme {
-  color: white;
-}*/
-
 .aboutme > p {
+  margin-top: -160px;
+  font-size: 3rem;
+  color: white;
+  padding: 0px 120px;
+}
+
+.aboutme > p2 {
   font-size: 2rem;
   color: white;
   padding: 0px 120px;
