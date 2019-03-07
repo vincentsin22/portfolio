@@ -4,6 +4,10 @@ body {
   font-size: 20px;
 }
 
+.img2 {
+  border-radius: 50%;
+}
+
 .zone {
     color:#FFF;
     font-size:2em;
@@ -36,30 +40,54 @@ body {
   font-size: 5em;
 }
 
-.aboutme > p {
+.frontpage {
+  color: black;
+  font-size:2.5em;
+}
+
+.frontpage > h1 {
+  margin: 0px;
+}
+
+.aboutme {
+  padding-bottom: 120px;
+}
+
+.aboutme > h1 {
   margin-top: -160px;
   font-size: 3rem;
   color: white;
   padding: 0px 120px;
 }
 
-.aboutme > p2 {
+.aboutme > h2 {
+  display: flex;
   font-size: 2rem;
   color: white;
-  padding: 0px 120px;
+  padding: 0px 500px;
 }
-
 .skills {
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1800px) {
   .main-nav {
     font-size: .5em;
-    padding:0;
+    padding:0px;
   }
   .container {
   font-size: 2em;
+  }
+  .aboutme > h2 {
+    font-size: .6em;
+    padding: 0px 20px;
+  }
+  .aboutme > h1 {
+    font-size: .8em;
+  }
+  .cover {
+    max-height: 250px;
+    max-width: 250px;
   }
 }
 
@@ -109,11 +137,13 @@ a {
 
 .footer > p {
   color: white;
+  padding-right: 10px;
 }
 
 .cover {
-  width: 11rem;
-  height: 20rem;
+  /*width: 11rem;
+  height: 20rem;*/
+  margin-top: 100px;
 }
 
 .box:hover {
