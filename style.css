@@ -85,9 +85,14 @@ body {
   .aboutme > h1 {
     font-size: .8em;
   }
-  .cover {
-    max-height: 250px;
-    max-width: 250px;
+  .cover > img2 {
+    max-height: 400px;
+    max-width: 400px;
+  }
+  .frontpage > h1 {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
