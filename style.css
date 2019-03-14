@@ -3,7 +3,8 @@ html, body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	font-size: 35px;
+	font-family: 'Abel', sans-serif;
+	background-color: grey;
 }
 
 /*Nav Bar Begins*/
@@ -24,6 +25,7 @@ li {
 a { 
 	color: white;
 	text-decoration: none;
+	font-size: 25px;
 }
 
 .push {
@@ -33,6 +35,7 @@ a {
 
 /*Main Panel Begins*/
 .main-panel {
+	background-color: grey;
 	/*background-image: url("nyc_landscape_b&w.jpg");
 	background-size: cover;
 	background-position: 50%;*/
@@ -51,8 +54,9 @@ a {
 
 .main-panel > h1 {
 	text-align: center;
-	margin-bottom: 30px;
+	margin: 30px;
 	color: black;
+	font-size: 80px;
 }
 
 .main-panel > hr {
@@ -69,7 +73,7 @@ a {
 }
 /*Main Panel Ends*/
 
-/*Links Begin*/
+/*Social Links Begin*/
 .second-panel {
 	background-color: black;
 	display: flex;
@@ -77,8 +81,32 @@ a {
 }
 
 .git_icon, .linkedin_icon, .email_icon {
-   width: 150px;
-   height: 150px;
+   width: 100px;
+   height: 100px;
    margin: 30px;
 }
-/*Links End*/
+/*Social Links End*/
+
+/*About Me Starts*/
+.about-me {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+.about-me > h1 {
+	font-size: 60px;
+	margin: 0px;
+}
+
+.about-me > hr {
+	width: 250px;
+	color: white;
+	border: 1px solid white;
+}
+
+.about-me > p {
+	margin: 0px;
+	font-size: 30px;
+	padding: 10px 250px;
+}
